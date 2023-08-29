@@ -47,7 +47,10 @@
           <div class="row">
             <div class="col">
               <div class="position-relative">
-                <div class="position-absolute"><img class="frame" src="Assets/Frame 4.png">
+                <div class="position-absolute">
+                  <a href="Assets/Frame 4.png" data-fancybox="gallery-a">
+                    <img class="frame" src="Assets/Frame 4.png">
+                  </a>
                 </div>
                   <div class="card border-0" id="card">
                     <div class="card-body">
@@ -65,7 +68,9 @@
           <div class="row">
             <div class="col">
               <div class="position-relative">
+                <a href="Assets/Frame 4.png" data-fancybox="gallery-a">
                   <img class="frame img-fluid" src="Assets/Frame 4.png">
+                </a>
                   <div class="card border-0">
                     <div class="card-body">
                       <h3>UI Challenge</h3>
@@ -83,7 +88,9 @@
             <div class="row">
               <div class="col-sm-6 mb-3 mb-sm-0">
                 <div class="card">
-                  <img src="Assets/landing-page.png" class="card-img-top" alt="...">
+                  <a href="Assets/landing-page.png" data-fancybox="gallery-a">
+                    <img src="Assets/landing-page.png" class="card-img-top" alt="...">
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">Landing Page</h5>
                     <p class="card-text">​​This is my first UI challenge in Binar Academy class, which is to make a landing page above the fold. In this challenge, I got inspiration from a bakery that is synonymous with the word sweet, so I gave it pink and white colors with an additional image of a macaroon in the middle to make the sweet impression more pronounced. in this challenge I get the first favorite rating</p>
@@ -92,7 +99,9 @@
               </div>
               <div class="col-sm-6">
                 <div class="card">
-                  <img src="Assets/countdown.png" class="card-img-top" alt="...">
+                  <a href="Assets/countdown.png" data-fancybox="gallery-a">
+                    <img src="Assets/countdown.png" class="card-img-top" alt="...">
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">Countdown</h5>
                     <p class="card-text">This is a challenge to make a countdown screen user interface. In this challenge, I represent continuous time with an hourglass. Of course, there are many countdown screen references that still use a simple design, namely only using numbers that keep going backwards, therefore I represent it with something that is not boring, namely by adapting an hourglass.</p>
@@ -104,7 +113,9 @@
               <div class="row">
                 <div class="col-sm-6 mb-3 mb-sm-0">
                   <div class="card">
-                    <img src="Assets/cake.png" class="card-img-top" alt="...">
+                    <a href="Assets/cake.png" data-fancybox="gallery-a">
+                      <img src="Assets/cake.png" class="card-img-top" alt="...">
+                    </a>
                     <div class="card-body">
                       <h5 class="card-title">Flash Screen</h5>
                       <p class="card-text">​​In this challenge I am required to create a bakery splash screen page. Here I use a brown background to match the logo of the bakery. In this challenge I also made a full prototype which you can see at the following link https://dribbble.com/ur_dsgnr</p>
@@ -113,7 +124,9 @@
                 </div>
                 <div class="col-sm-6">
                   <div class="card">
-                    <img src="Assets/popup.png" class="card-img-top" alt="...">
+                    <a href="Assets/popup.png" data-fancybox="gallery-a">
+                      <img src="Assets/popup.png" class="card-img-top" alt="...">
+                    </a>
                     <div class="card-body">
                       <h5 class="card-title">Pop Up</h5>
                       <p class="card-text">The fourth challenge is to make a popup screen. In this challenge, I made a popup about a discount on an application. I made this popup as attractive as possible with 3d illustrations and ornaments such as circular orbits on the popup card.</p>
@@ -126,7 +139,9 @@
               <div class="row">
                 <div class="col-sm-6 mb-3 mb-sm-0">
                   <div class="card">
-                    <img src="Assets/leaderboard.png" class="card-img-top" alt="...">
+                    <a href="Assets/leaderboard.png" data-fancybox="gallery-a">
+                      <img src="Assets/leaderboard.png" class="card-img-top" alt="...">
+                    </a>
                     <div class="card-body">
                       <h5 class="card-title">Leaderboard</h5>
                       <p class="card-text">​In this challenge leaderboard screen, I ranked the top 3 to catch users' attention. With the addition of an up or down icon it makes it easier for users to find out the progress of their rankings, besides that the scores displayed are also very helpful for users</p>
@@ -135,7 +150,9 @@
                 </div>
                 <div class="col-sm-6">
                   <div class="card">
-                    <img src="Assets/onboarding.png" class="card-img-top" alt="...">
+                    <a href="Assets/onboarding.png" data-fancybox="gallery-a">
+                      <img src="Assets/onboarding.png" class="card-img-top" alt="...">
+                    </a>
                     <div class="card-body">
                       <h5 class="card-title">Onboarding Screen</h5>
                       <p class="card-text">The onboarding challenge that I made is about an application for adventure. The 3d illustration that I use really describes the application, besides that the text writing that I use can invite users to adventure</p>
@@ -150,6 +167,16 @@
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
       <script src="jquery-3.7.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+      />
+      <script>
+        Fancybox.bind('[data-fancybox]', {
+          // Your custom options
+        });
+      </script>
       <script>
         $(function () {
       $(document).scroll(function () {
