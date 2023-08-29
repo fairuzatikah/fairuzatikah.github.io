@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@200;400&display=swap');
+
+*{
+    font-family: poppins;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+    
+    z-index: 1;
+}
+
+.transparent{
+    background-color: transparent;
+}
+
+.nav-item{
+    padding-left: 12px;
+}
+
+.btn{
+    background-color: #DF74C1;
+    color: white;
+}
+
+.navbar-nav{
+    line-height: 40px; 
+}
+
+.collapse{
+    justify-content: flex-end;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0; /*Menentukan posisi bawah gambar*/
+    transform: translateY(0%); 
+    z-index: -1;
+    /* Menggeser gambar ke atas */
+}
+
+.two-column-section {
+    margin-top: 100px;
+}
+
+.two-column-section3{
+    margin-bottom: 50px;
+    margin-top: 75px;
+}
+
+.two-column-section2, .two-column-section, .two-column-section3 {
+    display: flex;
+    justify-content: space-between; /* Membuat kedua kolom berada pada ujung kiri dan kanan */
+    align-items: center; /* Mengatur konten vertikal di tengah section */
+    margin-bottom: 20px;
+}
+
+#photo{
+    margin-left: 100px;
+    width: 100%; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Biarkan tinggi mengikuti aspek ratio gambar */
+}
+
+h2{
+    font-size: 72px;
+    line-height: 100%;
+    font-weight: bold;
+    color: #623E6C;
+}
+
+.h3{
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+    color: #623E6C;
+    margin-left: 75px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.contact-button {
+    background-color: #DF74C1;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 16px;
+}
+
+.portfolio-button{
+    border-color: #DF74C1;
+    color: #261c29;
+    border: none;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 16px;
+    margin-left: 52px;
+}
+
+.contact-button:hover {
+    background-color: #261c29;
+}
+
+.portfolio-button:hover{
+    border-color: #261c29;
+}
+
+p{
+    
+    letter-spacing: 20%;
+    font-size: 14px;
+}
+
+.column-button{
+    /* flex: 1; */
+    display: flex;
+}
+
+.column-button a {
+    margin: -2px 0px 14px 14px;
+    padding-top: 5px;
+}
+
+.text-icon{
+    padding-top: 5px;
+}
+
+.col-md-6{
+    padding: 20px 20px 20px 0px;
+}
+
+.col-md-6 #col1{
+    padding-top: 30px;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.col-md-4 img{
+    z-index: -1;
+}
+
+.contact{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 164px;
+    background-color: #DF74C1;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 16px;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: inherit;
+}
+
+.footer{
+    margin: 0 auto;
+    top: 295%;
+    left: 175%;
+    /* transform: translate(-50%, -50%); */
+}
+
+
+
+.image-container img {
+    /* width: 100%; 
+    height: 100%; */
+    display: block;
+    margin: auto;
+}
+
+nav.navbar.navbar-expand-lg.bg-transparent.scrolled {
+    background-color: white!important;
+}
+
+.col-md-6.experience{
+    margin-top: 155px;
+}
+
+.h4{
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.h2education{
+    text-align: center;
+}
+
+.contact-footer{
+    margin-bottom: 0;
+}
+
+.frame{
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#card{
+    float: right;
+    z-index: 0; 
+    margin-left: 350px;
+    margin-top: 60px;
+    /* padding-top: 90px; */
+    width: 575px;
+    height: 175px;
+    /* border-color: #808285; */
+}
+
+#card-tiktok{
+    float: right;
+    z-index: 0; 
+    margin-left: 350px;
+    margin-top: 20px;
+    width: 575px;
+    height: 230px;
+}
+
+.position-relative{
+    margin-top: 120px;
+}
+
+.section2{
+    margin-top: 90px;
+}
+.col.marge{
+    margin-top: 20px;
+}
+
+.center{
+    margin-top: 90px;
+}
+
+.center, .center-content{
+    text-align: center;
+    font-weight: bold;
+    color: #623E6C;
+}
+
+.center-image{
+    margin-top: 30px;
+    margin-left: 275px;
+}
+
+.text-ket{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#card-paragraph{
+    text-align: justify;
+}
+
+.overview{
+    color: #623E6C;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.text-par{
+    margin-bottom: 20px;
+}
+
+.design{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.image-tiktok{
+    margin-left: 100px;
+}
+
+.list{
+    margin-bottom: 20px;
+}
+
+.hifi{
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+}
+
+.btn.proto{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.myIH{
+    width: 721px;
+    height: 328px;
+}
+
+.img-max{
+    width: 100%;
+}
