@@ -62,7 +62,6 @@
 }
 
 #photo{
-    margin-left: 100px;
     width: 100%; /* Atur lebar gambar sesuai kebutuhan */
     height: auto; /* Biarkan tinggi mengikuti aspek ratio gambar */
 }
