@@ -103,7 +103,6 @@ h2{
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 16px;
-    margin-left: 52px;
 }
 
 .contact-button:hover {
@@ -308,3 +307,26 @@ nav.navbar.navbar-expand-lg.bg-transparent.scrolled {
 .img-max{
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .text-header, .h2education {
+        width: 50%;
+        font-size: 42px;
+    }
+    .text-header, .par-header{
+        padding-left: 20px;
+    }
+    .button-header{
+        margin-left: 20px;
+    }
+    .contact-button{
+        margin-bottom: 10px;
+    }
+    .row-mobile{
+        padding-left: 20px;
+    }
+    .col-md-6.experience {
+        margin-top: 0
+    }
+}
+
