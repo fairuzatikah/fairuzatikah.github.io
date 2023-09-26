@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fairuz Atikah</title>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">FairuzAtikah</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex" role="search" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="about_me.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="index.html#project">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="mailto:fairuzatikah77@gmail.com" class="nav-link active"><button type="button" class="btn">Contact Me</button></a>
+                    </li>
+                  </ul>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <h3 class="center">Suitmedia</h3>
+            <h5 class="center-content">study case provided by Suitmedia</h5>
+            <a href="Assets/Suitmedia_banner.png" data-fancybox>
+              <img class="img-fluid" img src="Assets/Suitmedia_banner.png">
+            </a>
+            <p class="text-time">Periode : 19 July 2022</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="card border-0" id="card-paragraph">
+              <div class="card-body">
+                <h4 class="overview">The Brief</h4>
+                <p class="text-par">A charity is holding a music concert to help victims of natural disasters. They want to create a platform where users can buy tickets as a token of charity and donation on this website. Make it highly engaging and easy-to-use through</p>
+                <h4 class="overview">The Task</h4>
+                <p class="text-par">Design a creative solution for responsive website that will allow users to get what event they want to attend quickly. They should be able to create an account, buy ticket, and donate.
+                    </p>
+                <h4 class="overview">What role do I play?</h4>
+                <p>In this project I act as a UX Researcher, UX Designer and UI Designer</p>
+                <h4 class="overview">Completion process</h4>
+                <ul>
+                  <li class="overview">Emphatize Map</li>
+                  <a href="Assets/emphaty map.jpg" data-fancybox>
+                    <img class="img-fluid" src="Assets/emphaty map.jpg">
+                  </a>
+                  <li class="overview">User Persona</li>
+                    <a href="Assets/user persona suitmedia.jpg" data-fancybox>
+                        <img class="img-fluid" src="Assets/user persona suitmedia.jpg">
+                      </a>
+                  <li class="overview">User Journey Map</li>
+                  <a href="Assets/user persona suitmedia.jpg" data-fancybox>
+                    <img class="img-fluid" src="Assets/UJM Before.jpg">
+                  </a><br><br>
+                  <a href="Assets/user persona suitmedia.jpg" data-fancybox>
+                    <img class="img-fluid" src="Assets/UJM After.jpg">
+                  </a>
+                  <li class="overview">High Fidelity</li>
+                    <a href="Assets/prototype_suitmedia.jpg" data-fancybox>
+                      <img class="img-fluid" src="Assets/prototype_suitmedia.jpg">
+                    </a>
+                      <a class="nav-link active" href="https://www.figma.com/file/ElJ28VQSvdJsBRF6viezrD/Suitmedia-Task?type=design&node-id=24%3A3982&mode=design&t=VnNY14Smb2lOjIBQ-1"><button type="button" class="btn proto">Play Prototype</button></a>
+                </ul>
+              </div>
+            </div>
+      </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <script src="jquery-3.7.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+      />
+      <script>
+        Fancybox.bind('[data-fancybox]', {
+          // Your custom options
+        });
+      </script>
+      <script>
+        $(function () {
+      $(document).scroll(function () {
+          var $nav = $(".navbar");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+    });
+    </script>
+    </body>
